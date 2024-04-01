@@ -1,0 +1,19 @@
+{
+    "name": "josea/up-task_mvc",
+    "description": "Proyecto de practica Uptask",
+    "autoload":{
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\":"./controllers",
+            "Model\\":"./models",
+            "Classes\\":"./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "GalaxyAYL",
+            "email": "josealbertoayalazumba@gmail.com"
+        }
+    ],
+    "require": {}
+}
