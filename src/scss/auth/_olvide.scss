@@ -1,0 +1,21 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.olvide{
+
+    .uptask{
+        @include m.logo(v.$rosa);
+    }
+
+    input[type="submit"]{
+        margin-top: 7rem;
+        @include m.boton(v.$rosa, v.$blanco);
+    }
+
+    .acciones{
+        a{
+            color: v.$rosa;
+        }
+    }
+}
